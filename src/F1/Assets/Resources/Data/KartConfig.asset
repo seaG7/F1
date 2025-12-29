@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5848b7333cfd4136bf3073fb308a4606, type: 3}
+  m_Name: KartConfig
+  m_EditorClassIdentifier: 
+  idleRpm: 1000
+  maxRpm: 8000
+  revLimiterRpm: 7500
+  fallbackTorque: 500
+  torqueCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1000
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 8000
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  flywheelInertia: 0.2
+  throttleResponse: 5
+  engineFrictionCoeff: 0.02
+  loadTorqueCoeff: 5
+  dragCoefficient: 0.5
+  frontalArea: 2.5
+  airDensity: 1.225
+  downforceCoefficient: 0.8
+  wingArea: 0.6
+  wingAngleDeg: 10
+  liftCoefficientSlope: 0.1
+  groundEffectFactor: 50
+  groundEffectMaxDist: 0.3
+  restLength: 0.6
+  springTravel: 0.3
+  springStiffness: 20000
+  damperStiffness: 3500
+  wheelRadius: 0.3
